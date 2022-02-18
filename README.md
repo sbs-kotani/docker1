@@ -18,7 +18,7 @@ cp -r postingprj/templates docker1/src
 
 cd docker1                                                              
 nano src/postingprj/settings.py                                                              
-	ALLOWED_HOSTS = ["*"]に変更                                                              
+             ALLOWED_HOSTS = ["*"]に変更                                                              
 
 docker-compose run django python3 ./manage.py makemigrations                                                              
 docker-compose run django python3 ./manage.py migrate                                                              
