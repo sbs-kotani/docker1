@@ -26,6 +26,7 @@ sudo chown -R $USER:$USER .
 
 docker-compose up                                                              
 
+
 以下のDB置換処理を行うとローカル環境で作成したデータを反映できる。                                                           
 cd ..                                                           
 cp -f postingprj/db.sqlite3 docker1/src/db.sqlite3                                                             
