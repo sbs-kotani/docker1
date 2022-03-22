@@ -7,16 +7,16 @@ python3 -m venv env
 source env/bin/activate                                                              
 
 cd docker1 
-nano docker-compose.yml
-　以下の箇所を変更する。Nは各自のSBS番号に変更する。
-　container_name: nginx_sbsNpost
-　　………
-　ports:
-      - ‘700N:80’
-　　………
-　container_name: django_sbsNpost
-　　………
-    container_name: db_sbsNpost
+nano docker-compose.yml　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　以下の箇所を変更する。Nは各自のSBS番号に変更する。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　container_name: nginx_sbsNpost　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　　………　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　ports:　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+      - ‘700N:80’　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　　………　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　container_name: django_sbsNpost　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　　………　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+    container_name: db_sbsNpost　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 
 docker-compose run django django-admin startproject postingprj .                                                               
 sudo chown -R $USER:$USER .                                                              
