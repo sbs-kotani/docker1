@@ -1,7 +1,7 @@
 # docker1
 Docker環境へのアップ                                                               
 
-sudo rm -rf 　docker1  env  postingprj　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+sudo rm -rf 　docker1  env  postingprj　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 git clone https://github.com/sbs-kotani/docker1.git                                                              
 git clone https://github.com/各自のgithub名/postingprj.git                                                              
 python3 -m venv env                                                              
