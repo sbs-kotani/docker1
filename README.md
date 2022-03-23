@@ -7,7 +7,7 @@ git clone https://github.com/各自のgithub名/postingprj.git
 python3 -m venv env                                                              
 source env/bin/activate                                                              
 
-cd docker1 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+cd docker1  
 nano docker-compose.yml　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下の箇所を変更する。Nは各自のSBS番号に変更する。　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;container_name: nginx_sbsNpost　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
