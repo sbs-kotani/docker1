@@ -21,7 +21,7 @@ nano docker-compose.yml　　　　　　　　　　　　　　　　　　　
 
 docker-compose run django django-admin startproject postingprj .                                                               
 sudo chown -R $USER:$USER .                                                              
-cd ..                                                              
+cd -                                                                
 cp -r postingprj/media docker1/src                                                              
 cp -r postingprj/postingapp docker1/src                                                              
 cp -r -f postingprj/postingprj docker1/src                                                              
@@ -41,7 +41,7 @@ docker-compose up
 
                                        
 以下のDB置換処理を行うとローカル環境で作成したデータを反映できる。                                                           
-cd ..                                                           
+cd -                                                             
 cp -f postingprj/db.sqlite3 docker1/src/db.sqlite3                                                             
 cd docker1                                                           
 docker-compose up                                                              
